@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_welcome_page">微喂</string>
+    <string name="title_activity_intro_page">微企一站通</string>
+
+    <string name="app_name">微企一站通</string>
+    <string name="action_settings">设置</string>
+    <string name="txtView_back">返回</string>
+    <string name="lbl_cancel">取消</string>
+    <string name="lbl_click_again_exit">再按一遍退出</string>
+
+    <string name="appointment_now">马上预约</string>
+    <string name="cancel_appointment">取消预约</string>
+    <string name="txt_hint_enter_username">输入用户名</string>
+    <string name="txt_hint_enter_password">输入密码</string>
+    <string name="txt_hint_enter_password_again">再次输入密码</string>
+    <string name="txt_hint_enter_company_name">输入公司名</string>
+    <string name="txt_hint_enter_verify_code">输入验证码</string>
+    <string name="login">登录</string>
+    <string name="logout">登出</string>
+    <string name="sign_up">注册</string>
+    <string name="forget_password">忘记密码</string>
+    <!-- SignUp-->
+    <string name="title_activity_register">用户注册</string>
+    <string name="txt_hint_enter_mobile_phone">输入手机号</string>
+    <string name="title_activity_register_verify_code">注册验证</string>
+    <string name="txt_hint_enter_sms_code">输入手机验证码</string>
+    <string name="txt_btn_submit">提交</string>
+    <string name="txt_agree_before_reg">请阅读下面协议再进行注册</string>
+    <string name="txt_agree_click">《会员注册协议》</string>
+    <string name="lbl_agree">同意</string>
+    <string name="title_activity_member_agreement">会员注册协议</string>
+
+    <string name="dialog_loading">加载中...</string>
+    <string name="dialog_wait">请稍等...</string>
+    <string name="dialog_uploading">正在提交...</string>
+    <string name="dialog_server_no_response">服务器无响应</string>
+    <string name="dialog_btn_OK">确认</string>
+    <string name="toast_data_updating">数据更新中...</string>
+
+    <string name="unconnected">无网络连接</string>
+
+    <!-- Account-->
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_account_centre">账号中心</string>
+    <string name="lbl_txtView_Username">用户名</string>
+
+    <string name="title_activity_user_info_form">个人信息</string>
+    <string name="title_activity_user_info_update">更新信息</string>
+
+    <!-- Intellectual Property-->
+    <string name="title_activity_inte_prop_search">快捷知产</string>
+    <string name="title_activity_trade_mark_similar_search">商标近似查询</string>
+    <string name="title_activity_trade_mark_status_search">商标状态查询</string>
+    <string name="title_activity_trade_mark_integrated_search">商标综合查询</string>
+    <string name="lbl_tab_trademark_service">商标服务</string>
+    <string name="lbl_tab_patent_service">专利服务</string>
+
+    <string name="lbl_btn_trademark_approximate_search">商标近似查询</string>
+    <string name="lbl_btn_trademark_integrated_search">商标综合查询</string>
+    <string name="lbl_btn_trademark_status_search">商标状态查询</string>
+    <string name="lbl_btn_trademark_naming">商标取名</string>
+    <string name="lbl_btn_trademark_operation">商标运营</string>
+
+    <string name="lbl_btn_patent_integrated_search">专利综合查询</string>
+    <string name="lbl_btn_patent_annual_fee_search">专利年费监测</string>
+    <string name="lbl_btn_patent_achieve_transform">专利成果转化</string>
+    <string name="lbl_btn_patent_legal_status">专利法律状态</string>
+    <string name="lbl_btn_patent_protect_service">专利维权服务</string>
+    <string name="title_activity_patent_protection">专利维权服务</string>
+    <string name="txt_sort_relative">相关度排序</string>
+    <string name="txt_sort_timeup">申请日升序</string>
+    <string name="txt_sort_timedown">申请日降序</string>
+    <string name="txt_sort_publictimeup">公开公告日升序</string>
+    <string name="txt_sort_publictimedow">公开公告日降序</string>
+    <string name="txt_more">更多</string>
+
+    <!-- Trademark Similarity Search -->
+    <string name="lbl_internation_category_num_note">（输入1-45之间的数字）</string>
+    <string name="lbl_search_method">查询方式：</string>
+    <string-array name="combo_search_method">
+        <item>汉字</item>
+        <item>拼音</item>
+        <item>纯拼音</item>
+        <item>英语</item>
+        <item>数字</item>
+        <!--
+        <item>字头</item>
+        <item>图形</item>
+        -->
+    </string-array>
+    <string-array name="combo_search_method_value">
+        <item>CHN</item>
+        <item>PY</item>
+        <item>CPY</item>
+        <item>ENG</item>
+        <item>NUM</item>
+        <!--
+        <item>ABBR</item>
+        <item>TX</item>
+        -->
+    </string-array>
+    <string name="lbl_search_style">查询类型：</string>
+    <string name="lbl_search_content">查询内容：</string>
+    <string name="btn_auto_search">自动查询</string>
+    <string name="btn_select_search">选择查询</string>
+    <string name="title_activity_trade_mark_similar_result_list">查询结果</string>
+    <string name="title_activity_trade_mark_similar_detail">商标内容</string>
+
+    <!-- Trademark Integrated Search -->
+    <string name="lbl_internation_category_num">国际分类号：</string>
+    <string name="lbl_application_number">注册号／申请号：</string>
+    <string name="lbl_trademark_name">商标名称：</string>
+    <string name="lbl_applicant_name_C">申请人名称（中文）：</string>
+    <string name="lbl_applicant_name_E">申请人名称（英文）：</string>
+    <string name="lbl_result_sort_style">结果集排序类型：</string>
+    <string-array name="result_sort_style_array">
+        <item>默认</item>
+        <item>按注册号</item>
+        <item>按类别</item>
+    </string-array>
+    <string name="dialog_error_message_trademark_query_content">申请／注册号，商标名称，申请人名称（中文），申请人名称（英文）只能单独做为搜索条件！</string>
+    <string name="title_activity_trade_mark_integrated_result_list">商标综合查询</string>
+    <string name="title_activity_trade_mark_integrated_precision_result_list">商标综合查询</string>
+    <string-array name="spinner_trademark_query_method_array">
+        <item>前包含</item>
+        <item>包含</item>
+        <item>精确</item>
+    </string-array>
+
+    <!-- Trademark Status Search -->
+    <string name="lbl_inputRegNumber">输入注册／申请号：</string>
+    <string name="btn_search">查询</string>
+    <string name="lbl_noresult">没有您要查找的结果</string>
+    <string name="lbl_applNum">申请／注册号：</string>
+    <string name="lbl_categoryNum">类号：</string>
+    <string name="lbl_brandName">商标名称：</string>
+    <string name="lbl_applicantName">申请人名称：</string>
+    <string name="title_activity_trade_mark_status_result_list">商标状态查询</string>
+    <string name="title_activity_trade_mark_status_detail">查询内容</string>
+
+    <!-- Trademark Naming-->
+    <string name="title_activity_trade_mark_naming">商标取名</string>
+    <string name="txt_hint_trademark_naming_area">输入商品名称</string>
+    <string name="txt_hint_trademark_naming_key">输入关键字</string>
+    <string name="title_activity_trade_mark_naming_result">商标筛选</string>
+
+    <!-- Patent Integrated Search-->
+    <string name="title_activity_patent_integrated_search">专利综合查询</string>
+    <string name="title_activity_patent_integrated_query">专利综合查询</string>
+    <string name="radio_china_patent_txt">中国专利数据库</string>
+    <string name="radio_foreign_patent_txt">外国专利数据库</string>
+    <string name="input_search_keyword_hint">查询关键词</string>
+
+    <string name="title_activity_ptnt_isearch_detail">专利内容</string>
+
+    <string name="chk_lbl_select_all">全选</string>
+    <string name="chk_lbl_invention_patent">发明</string>
+    <string name="chk_lbl_utility_patent">实用新型</string>
+    <string name="chk_lbl_design_patent">外观设计</string>
+    <string name="chk_lbl_invention_grant_patent">发明授权</string>
+    <string name="chk_lbl_Taiwan_patent">中国台湾专利</string>
+    <string name="chk_lbl_HK_patent">香港特区</string>
+
+    <string name="chk_lbl_us_public">美国公开</string>
+    <string name="chk_lbl_us_grant">美国授权</string>
+    <string name="chk_lbl_jp">日本</string>
+    <string name="chk_lbl_uk">英国</string>
+    <string name="chk_lbl_fr">法国</string>
+    <string name="chk_lbl_ger">德国</string>
+    <string name="chk_lbl_swiss">瑞士</string>
+    <string name="chk_lbl_Russia">俄罗斯</string>
+    <string name="chk_lbl_PCT">PCT组织</string>
+    <string name="chk_lbl_eu">欧专</string>
+    <string name="chk_lbl_korea">韩国</string>
+    <string name="chk_lbl_south_east_asia">东南亚</string>
+
+    <!-- patent annual fee-->
+    <string name="title_activity_patent_annual_fee_monitor_list">年费监测</string>
+    <string name="txt_hint_search">搜索</string>
+
+    <!-- patent achieve transform -->
+    <string name="title_activity_patent_achieve_transform_list">专利成果转化</string>
+    <string name="title_activity_patent_achieve_transform_list_search_page">专利成果转化</string>
+    <string name="title_activity_ptnt_consult">咨询</string>
+
+    <!-- VIP Club -->
+    <string name="title_VIP_club">会员优享</string>
+
+    <!-- Service Centre-->
+    <string name="lbl_centre_service_announcement">通知公告</string>
+    <string name="lbl_centre_service_manage_train">管理培训</string>
+    <string name="lbl_centre_service_quality_inspection">质量检测</string>
+    <string name="lbl_centre_service_finance_service">金融服务</string>
+    <string name="lbl_centre_service_destined_property">工业房产</string>
+    <string name="lbl_centre_service_health_check">健康体检</string>
+    <string name="lbl_centre_service_recruitment">企业招聘</string>
+    <string name="lbl_trademark_service">商标服务</string>
+    <string name="lbl_patent_service">专利服务</string>
+
+    <!-- announcement -->
+    <string name="title_activity_announce_centre">通知公告</string>
+    <string name="title_activity_announcement_body">公告内容</string>
+
+    <!-- training-->
+    <string name="title_activity_manage_training">管理培训</string>
+    <string name="lbl_tab_train_notice">培训须知</string>
+    <string name="lbl_tab_train_courses">课程目录</string>
+    <string name="lbl_tab_train_review">活动回顾</string>
+
+    <!-- Courses-->
+    <string name="title_activity_course"></string>
+    <string name="title_activity_course_body">课程详情</string>
+    <string name="txt_number_of_ppl">报名人数</string>
+
+    <!-- finance -->
+    <string name="title_activity_financial_service">金融服务</string>
+    <string name="title_activity_credit_loan">专项信用贷款</string>
+    <string name="title_activity_enlending">资金转贷</string>
+    <string name="title_activity_other_finance">其他融资</string>
+    <string name="txtView_ten_thousand">万元</string>
+    <!-- loan-->
+    <string name="lbl_btn_finance_loan_apply">贷款申请</string>
+    <string name="title_activity_loan_application_form">贷款申请</string>
+    <string name="txtView_loan_company_capital_status">企业当前资产状况</string>
+    <string name="txtView_loan_reg_capital">注册资本</string>
+    <string name="txtView_loan_total_asset">资产总额</string>
+    <string name="txtView_loan_total_debt">负债总额</string>
+    <string name="txtView_loan_bank_loan">银行贷款</string>
+    <string name="txtView_loan_other_loan">其他借款</string>
+    <string name="txtView_loan_owner_equity">所有者权益</string>
+    <string name="txtView_loan_asset_liability_ratio">资产负债率</string>
+    <string name="txtView_loan_company_operation_status">企业当前经营状况</string>
+    <string name="txtView_loan_main_product">主导产品</string>
+    <string name="txtView_loan_productivity">产品产量</string>
+    <string name="txtView_loan_product_capability">生产能力</string>
+    <string name="txtView_loan_industrial_output">现价工业产值</string>
+    <string name="txtView_loan_sales_income">销售收入</string>
+    <string name="txtView_loan_total_profit">利润总额</string>
+    <string name="txtView_loan_total_tax">实缴税金</string>
+    <string name="txtView_loan_added_value_tax">其中增值税</string>
+    <string name="txtView_loan_detail">贷款详情</string>
+    <string name="txtView_loan_purpose">贷款用途</string>
+    <string name="txtView_loan_limit">贷款额度</string>
+    <string name="txtView_loan_period">贷款期限</string>
+    <string name="lbl_btn_submit_loan_application">提交申请</string>
+    <!-- onlending -->
+    <string name="title_activity_onlend">资金转贷</string>
+    <string name="lbl_btn_finance_onlend_apply">申请转贷</string>
+    <string name="title_activity_onlend_application_form">转贷申请</string>
+    <string name="txtView_onlend_loan_amount">贷款金额</string>
+    <string name="txtView_onlend_loan_deadline">贷款到期</string>
+    <string name="txtView_onlend_loan_bank">贷款银行</string>
+    <string name="txt_hint_onlend_loan_deadline">点击选择日期</string>
+    <string name="txtView_onlend_bank_cmb">招商银行</string>
+    <string name="txtView_onlend_bank_ccb">建设银行</string>
+    <string name="txtView_onlend_bank_jxccb">嘉兴银行</string>
+    <string name="txtView_onlend_bank_czcb">稠州银行</string>
+    <string name="txtView_onlend_bank_hxb">华夏银行</string>
+    <string name="txtView_onlend_bank_czb">浙商银行</string>
+    <string name="txtView_onlend_bank_zjwx">吴兴农村合作银行</string>
+    <string name="lbl_btn_finance_onlend_sumbit_application_form">提交申请</string>
+
+    <!-- Quality Service-->
+    <string name="title_activity_quality_service">质量检测</string>
+    <!-- Wood-->
+    <string name="title_activity_wood_inspection">木业检测</string>
+    <!-- Kids Wear -->
+    <string name="title_activity_kids_wear_inspection">童装检测</string>
+    <!-- Textile -->
+    <string name="title_activity_textile_inspection">纺织品检测</string>
+
+    <!-- Health Check -->
+    <string name="title_activity_health_check">健康体检</string>
+
+    <!-- Membership-->
+    <string name="title_activity_membership_main">会员中心</string>
+    <string name="title_activity_vipdiscuss">会员互动</string>
+
+    <!-- Training -->
+    <string name="title_activity_registered_courses_list">预约课程</string>
+    <string name="title_activity_registered_course_body">课程内容</string>
+
+    <!-- Finance -->
+    <string name="title_activity_applied_financial_products_list">金融预约</string>
+    <string name="title_activity_applied_credit_loan_detail">信用贷款</string>
+    <string name="lbl_btn_cancel_loan_application">取消申请</string>
+    <string name="title_activity_applied_lending_detail">转贷</string>
+
+    <!-- Inspection -->
+    <string name="title_activity_appointed_inspection_list">预约检测</string>
+    <string name="title_activity_appointed_inspection_wood">木业检测</string>
+    <string name="title_activity_appointed_inspection_kids">童装检测</string>
+    <string name="title_activity_appointed_inspection_textile">纺织品检测</string>
+
+    <!-- Healthy -->
+    <string name="title_activity_booked_healthy_pre">体检预约</string>
+
+    <!-- Law -->
+    <string name="context_law_assistants">24小时法律服务热线:96871</string>
+    <string name="title_activity_law_assistant">法律援助</string>
+    <string name="title_activity_main_member">首页</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_dashboard">微企一站通</string>
+
+    <string-array name="nav_drawer_items">
+        <item>首页</item>
+        <item>我的预约</item>
+        <item>年费监测</item>
+        <item>商标监测</item>
+        <item>专利买卖</item>
+        <item>商标买卖</item>
+        <item>项目规划</item>
+        <item>会员互动</item>
+        <item>推荐我们</item>
+        <item>修改个人资料</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_nav_home</item>
+        <item>@drawable/ic_nav_reserve</item>
+        <item>@drawable/ic_nav_annfee</item>
+        <item>@drawable/ic_nav_trademark_monitor</item>
+        <item>@drawable/ic_nav_patent_trade</item>
+        <item>@drawable/ic_nav_trademark_trade</item>
+        <item>@drawable/ic_nav_project</item>
+        <item>@drawable/ic_nav_member</item>
+        <item>@drawable/ic_nav_recommend</item>
+        <item>@drawable/ic_nav_reserve</item>
+    </array>
+
+    <string-array name="property_items">
+        <item>卖房</item>
+        <item>买房</item>
+        <item>租房</item>
+        <item>出租</item>
+        <item>疑难租房</item>
+        <item>房产收藏</item>
+    </string-array>
+
+    <array name="property_icons">
+        <item>@mipmap/ic_property_sell</item>
+        <item>@mipmap/ic_property_buy</item>
+        <item>@mipmap/ic_property_lend</item>
+        <item>@mipmap/ic_property_rent</item>
+        <item>@mipmap/ic_property_qa</item>
+        <item>@mipmap/ic_property_favorites</item>
+    </array>
+
+    <string-array name="property_favorite_items">
+        <item>卖房信息</item>
+        <item>买房信息</item>
+        <item>租房信息</item>
+        <item>出租信息</item>
+    </string-array>
+    <array name="property_favorite_icons">
+        <item>@mipmap/ic_property_sell</item>
+        <item>@mipmap/ic_property_buy</item>
+        <item>@mipmap/ic_property_lend</item>
+        <item>@mipmap/ic_property_rent</item>
+    </array>
+
+    <string name="lbl_address">地址：</string>
+    <string name="lbl_category">类型：</string>
+    <string name="lbl_area">面积：</string>
+    <string name="lbl_square_meter">平米</string>
+    <string name="lbl_level">楼层：</string>
+    <string name="lbl_total_floor">共几层</string>
+    <string name="lbl_ask_price">期望价格：</string>
+    <string name="lbl_cny">元</string>
+    <string name="lbl_cny_month">元／月</string>
+    <string name="lbl_property_description">房源描述：</string>
+
+    <string-array name="address_area">
+        <item>吴兴区</item>
+        <item>南浔区</item>
+        <item>长兴县</item>
+        <item>德清县</item>
+        <item>安吉县</item>
+    </string-array>
+    <string-array name="property_category">
+        <item>钢结构</item>
+        <item>钢筋水泥结构</item>
+    </string-array>
+    <string name="lbl_property_add_favorite">添加到房产收藏</string>
+    <string name="lbl_property_cancel_favorite">取消收藏</string>
+
+    <string name="title_activity_property">PropertyActivity</string>
+    <string name="title_activity_version_info">版本更新</string>
+    <string name="title_activity_trademark_monitor_detail">商标内容</string>
+    <string name="title_activity_trademark_trade_detail">商标内容</string>
+    <string name="title_activity_announce_comment_page">评论</string>
+    <string name="say_something">我要说两句</string>
+    <string name="title_activity_trademark_trade">TrademarkTradeActivity</string>
+
+    <string name="lbl_appoint_course">课程预约</string>
+    <string name="lbl_appoint_finance">金融预约</string>
+    <string name="lbl_appoint_health">体检预约</string>
+    <string name="lbl_appoint_quality">质检预约</string>
+    <string name="lbl_appoint_property">房产收藏</string>
+    <string name="title_activity_appointed_course_list">AppointedCourseListActivity</string>
+    <string name="title_activity_interact_comment">会员互动</string>
+    <string name="title_activity_patent_status_search">专利法律状态查询</string>
+    <string name="title_activity_ptnt_result_detail">专利法律状态</string>
+    <string name="title_activity_property_sell_form">卖房信息</string>
+    <string name="title_activity_property_selling_list">买房</string>
+    <string name="title_activity_favorite_centre">我的收藏</string>
+    <string name="title_activity_property_lend_form">房产出租</string>
+    <string name="title_activity_property_lending_list">租房</string>
+    <string name="title_activity_property_favorite_sell">买房信息收藏</string>
+    <string name="title_activity_property_favorite_lend_list">租房信息收藏</string>
+    <string name="title_activity_property_main">PropertyMainActivity</string>
+    <string name="title_activity_user_info_upd_area">UserInfoUpdAreaActivity</string>
+    <string name="title_activity_user_info_upd_portrait">UserInfoUpdPortraitActivity</string>
+
+    <string name="txt_recommend_us">点击推荐</string>
+    <string name="wechat_chats">微信</string>
+    <string name="wechat_moments">朋友圈</string>
+    <string name="wechat_favorite">微信收藏</string>
+    <string name="weibo">新浪微博</string>
+    <string name="msg">短信</string>
+
+</resources>

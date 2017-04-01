@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.weiping.InteProperty.trademark.activity.TradeMarkSimilarResultListActivity">
+
+    <ListView
+        android:id="@+id/listView_trademark_similar_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#f5f5f5"
+        android:dividerHeight="4px">
+    </ListView>
+
+</RelativeLayout>

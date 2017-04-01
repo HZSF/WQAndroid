@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weiping.servicecentre.quality.textile.activity.TextileInspectionActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_cs_quality_textile1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/cs_quality_textile_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/txt_cs_quality_textile2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appointment_now"
+                android:onClick="onClickListenerAppointTextileInspection"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

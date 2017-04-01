@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_interactive_comment_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weiping.membership.interactive.activity.InteractCommentActivity">
+
+    <ListView
+        android:id="@+id/lv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_comment"/>
+
+    <RelativeLayout
+        android:id="@id/rl_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="#d3d2d2">
+        <EditText
+            android:id="@+id/et_announce_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_toLeftOf="@+id/btn_submit_comment"
+            android:background="#ffffff"
+            android:hint="@string/say_something"/>
+        <Button
+            android:id="@id/btn_submit_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn8"
+            android:text="发帖"
+            android:textColor="#4c4a4a"
+            android:onClick="onClickSubmitAnnounceComment"/>
+        <TextView
+            android:id="@+id/txt_hide_session_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</RelativeLayout>

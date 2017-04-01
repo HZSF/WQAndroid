@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_numbers">
+        <item> </item>
+        <item>1.化学原料</item>
+        <item>2.颜料油漆</item>
+        <item>3.日化用品</item>
+        <item>4.燃料油脂</item>
+        <item>5.医用医药</item>
+        <item>6.金属材料</item>
+        <item>7.机械设备</item>
+        <item>8.手工器械</item>
+        <item>9.科学仪器</item>
+        <item>10.医疗器械</item>
+        <item>11.灯具空调</item>
+        <item>12.运输工具</item>
+        <item>13.军火烟火</item>
+        <item>14.珠宝钟表</item>
+        <item>15.乐器用品</item>
+        <item>16.办公用品</item>
+        <item>17.橡胶制品</item>
+        <item>18.皮革皮具</item>
+        <item>19.建筑材料</item>
+        <item>20.家具制品</item>
+        <item>21.厨房洁具</item>
+        <item>22.绳网袋蓬</item>
+        <item>23.纱线丝品</item>
+        <item>24.布料床单</item>
+        <item>25.服装鞋帽</item>
+        <item>26.纽扣拉链</item>
+        <item>27.地毯席垫</item>
+        <item>28.健身器材</item>
+        <item>29.肉类食品</item>
+        <item>30.方便食品</item>
+        <item>31.饲料种耔</item>
+        <item>32.啤酒饮料</item>
+        <item>33.含酒精酒</item>
+        <item>34.烟草烟具</item>
+        <item>35.广告销售</item>
+        <item>36.金融物管</item>
+        <item>37.建筑修理</item>
+        <item>38.通讯服务</item>
+        <item>39.运输贮藏</item>
+        <item>40.材料加工</item>
+        <item>41.教育娱乐</item>
+        <item>42.网站法律</item>
+        <item>43.餐饮住宿</item>
+        <item>44.医疗厨艺</item>
+        <item>45.社会服务</item>
+    </string-array>
+</resources>

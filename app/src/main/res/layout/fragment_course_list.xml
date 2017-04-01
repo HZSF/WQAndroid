@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weiping.servicecentre.training.activity.CourseListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <GridView
+        android:id="@+id/gridView_courseList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:background="#f0f0f0">
+    </GridView>
+w
+</FrameLayout>

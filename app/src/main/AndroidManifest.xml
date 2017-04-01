@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="platform.tyk.weping.com.weipingplatform"
+    android:versionCode="37"
+    android:versionName="1.1.2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.weiping.platform.IntroPageActivity"
+            android:label="@string/title_activity_intro_page"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.weiping.platform.WelcomePageActivity"
+            android:label="@string/title_activity_welcome_page"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.weiping.InteProperty.IntePropSearchActivity"
+            android:label="@string/title_activity_inte_prop_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkStatusSearchActivity"
+            android:label="@string/title_activity_trade_mark_status_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkIntegratedSearchActivity"
+            android:label="@string/title_activity_trade_mark_integrated_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkSimilarSearchActivity"
+            android:label="@string/title_activity_trade_mark_similar_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.patent.activity.PatentIntegratedSearchActivity"
+            android:label="@string/title_activity_patent_integrated_search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.announcement.activity.AnnounceCentreActivity"
+            android:label="@string/title_activity_announce_centre"
+            android:parentActivityName="com.weiping.platform.MainMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.training.activity.ManageTrainingActivity"
+            android:label="@string/title_activity_manage_training"
+            android:parentActivityName="com.weiping.platform.MainMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.announcement.activity.AnnouncementBodyActivity"
+            android:label="@string/title_activity_announcement_body"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.finance.activity.FinancialServiceActivity"
+            android:label="@string/title_activity_financial_service"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.weiping.servicecentre.training.course.activity.CourseActivity"
+            android:label="@string/title_activity_course"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.training.course.activity.CourseBodyActivity"
+            android:label="@string/title_activity_course_body"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.finance.loan.activity.CreditLoanActivity"
+            android:label="@string/title_activity_credit_loan"
+            android:parentActivityName="com.weiping.servicecentre.finance.activity.FinancialServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.finance.loan.activity.LoanApplicationFormActivity"
+            android:label="@string/title_activity_loan_application_form"
+            android:parentActivityName="com.weiping.servicecentre.finance.activity.FinancialServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.finance.onlend.activity.OnlendActivity"
+            android:label="@string/title_activity_onlend"
+            android:parentActivityName="com.weiping.servicecentre.finance.activity.FinancialServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.finance.onlend.activity.OnlendApplicationFormActivity"
+            android:label="@string/title_activity_onlend_application_form"
+            android:parentActivityName="com.weiping.servicecentre.finance.onlend.activity.OnlendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.quality.activity.QualityServiceActivity"
+            android:label="@string/title_activity_quality_service"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.weiping.servicecentre.quality.wood.activity.WoodInspectionActivity"
+            android:label="@string/title_activity_wood_inspection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.quality.kids.activity.KidsWearInspectionActivity"
+            android:label="@string/title_activity_kids_wear_inspection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.quality.textile.activity.TextileInspectionActivity"
+            android:label="@string/title_activity_textile_inspection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.servicecentre.healthy.activity.HealthCheckActivity"
+            android:label="@string/title_activity_health_check"
+            android:parentActivityName="com.weiping.platform.MainMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.law.activity.LawAssistantActivity"
+            android:label="@string/title_activity_law_assistant"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.patent.activity.PatentProtectionActivity"
+            android:label="@string/title_activity_patent_protection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.credential.activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkNamingActivity"
+            android:label="@string/title_activity_trade_mark_naming"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkNamingResultActivity"
+            android:label="@string/title_activity_trade_mark_naming_result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkSimilarResultListActivity"
+            android:label="@string/title_activity_trade_mark_similar_result_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkSimilarDetailActivity"
+            android:label="@string/title_activity_trade_mark_similar_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.credential.activity.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.training.activity.RegisteredCoursesListActivity"
+            android:label="@string/title_activity_registered_courses_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkStatusResultListActivity"
+            android:label="@string/title_activity_trade_mark_status_result_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkStatusDetailActivity"
+            android:label="@string/title_activity_trade_mark_status_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.training.activity.RegisteredCourseBodyActivity"
+            android:label="@string/title_activity_registered_course_body"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.healthy.activity.BookedHealthyPreActivity"
+            android:label="@string/title_activity_booked_healthy_pre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.quality.activity.AppointedInspectionListActivity"
+            android:label="@string/title_activity_appointed_inspection_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.quality.activity.AppointedInspectionWoodActivity"
+            android:label="@string/title_activity_appointed_inspection_wood"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.quality.activity.AppointedInspectionKidsActivity"
+            android:label="@string/title_activity_appointed_inspection_kids"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.quality.activity.AppointedInspectionTextileActivity"
+            android:label="@string/title_activity_appointed_inspection_textile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkIntegratedResultListActivity"
+            android:label="@string/title_activity_trade_mark_integrated_result_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TradeMarkIntegratedPrecisionResultListActivity"
+            android:label="@string/title_activity_trade_mark_integrated_precision_result_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.finance.activity.AppliedFinancialProductsListActivity"
+            android:label="@string/title_activity_applied_financial_products_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.finance.activity.AppliedCreditLoanDetailActivity"
+            android:label="@string/title_activity_applied_credit_loan_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.credential.activity.RegisterVerifyCodeActivity"
+            android:label="@string/title_activity_register_verify_code"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.membership.finance.activity.AppliedLendingDetailActivity"
+            android:label="@string/title_activity_applied_lending_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.patent.activity.PatentAnnualFeeMonitorListActivity"
+            android:label="@string/title_activity_patent_annual_fee_monitor_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.patent.activity.PatentAchieveTransformListActivity"
+            android:label="@string/title_activity_patent_achieve_transform_list"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.weiping.InteProperty.patent.activity.PatentAchieveTransformListSearchPageActivity"
+            android:label="@string/title_activity_patent_achieve_transform_list_search_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.credential.activity.UserInfoFormActivity"
+            android:label="@string/title_activity_user_info_form"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.credential.activity.UserInfoUpdateActivity"
+            android:label="@string/title_activity_user_info_update"
+            android:parentActivityName="com.weiping.credential.activity.UserInfoFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.InteProperty.patent.activity.PtntISearchDetailActivity"
+            android:label="@string/title_activity_ptnt_isearch_detail" />
+        <activity
+            android:name="com.weiping.credential.activity.MemberAgreementActivity"
+            android:label="@string/title_activity_member_agreement" />
+        <activity
+            android:name="com.weiping.platform.MainMemberActivity"
+            android:label="@string/title_activity_main_member" />
+        <activity
+            android:name="com.weiping.platform.DashboardActivity"
+            android:label="@string/title_activity_dashboard" />
+        <activity
+            android:name="com.weiping.servicecentre.property.activity.PropertyActivity"
+            android:label="@string/title_activity_property"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.weiping.platform.VersionInfoActivity"
+            android:label="@string/title_activity_version_info" />
+        <activity
+            android:name="com.weiping.InteProperty.patent.activity.PtntConsultActivity"
+            android:label="@string/title_activity_ptnt_consult" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TrademarkMonitorDetailActivity"
+            android:label="@string/title_activity_trademark_monitor_detail" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TrademarkTradeDetailActivity"
+            android:label="@string/title_activity_trademark_trade_detail" />
+        <activity
+            android:name="com.weiping.servicecentre.announcement.activity.AnnounceCommentPageActivity"
+            android:label="@string/title_activity_announce_comment_page" />
+        <activity
+            android:name="com.weiping.InteProperty.trademark.activity.TrademarkTradeActivity"
+            android:label="@string/title_activity_trademark_trade" />
+        <activity
+            android:name="com.weiping.servicecentre.training.course.activity.AppointedCourseListActivity"
+            android:label="@string/title_activity_appointed_course_list" />
+        <activity
+            android:name="com.weiping.membership.interactive.activity.InteractCommentActivity"
+            android:label="@string/title_activity_interact_comment" />
+        <activity
+            android:name="com.weiping.InteProperty.patent.activity.PatentStatusSearchActivity"
+            android:label="@string/title_activity_patent_status_search" />
+        <activity
+            android:name="com.weiping.InteProperty.patent.activity.PtntResultDetailActivity"
+            android:label="@string/title_activity_ptnt_result_detail" />
+        <activity
+            android:name="com.weiping.servicecentre.property.sell.activity.PropertySellFormActivity"
+            android:label="@string/title_activity_property_sell_form" />
+        <activity
+            android:name="com.weiping.servicecentre.property.buy.activity.PropertySellingListActivity"
+            android:label="@string/title_activity_property_selling_list" />
+        <activity
+            android:name="com.weiping.servicecentre.property.favorites.activity.FavoriteCentreActivity"
+            android:label="@string/title_activity_favorite_centre" />
+        <activity
+            android:name="com.weiping.servicecentre.property.lend.activity.PropertyLendFormActivity"
+            android:label="@string/title_activity_property_lend_form" />
+        <activity
+            android:name="com.weiping.servicecentre.property.rent.activity.PropertyLendingListActivity"
+            android:label="@string/title_activity_property_lending_list" />
+        <activity
+            android:name="com.weiping.servicecentre.property.favorites.sell.activity.PropertyFavoriteSellListActivity"
+            android:label="@string/title_activity_property_favorite_sell" />
+        <activity
+            android:name="com.weiping.servicecentre.property.favorites.lend.activity.PropertyFavoriteLendListActivity"
+            android:label="@string/title_activity_property_favorite_lend_list" />
+
+        <receiver
+            android:name="com.weiping.thirdParty.WechatReceiver"
+            android:permission="com.tencent.mm.plugin.permission.SEND">
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.weiping.servicecentre.property.activity.PropertyMainActivity"
+            android:label="@string/title_activity_property_main" />
+        <activity
+            android:name="com.weiping.credential.activity.UserInfoUpdAreaActivity"
+            android:label="@string/title_activity_user_info_upd_area"
+            android:parentActivityName="com.weiping.credential.activity.UserInfoFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.weiping.credential.activity.UserInfoUpdPortraitActivity"
+            android:label="@string/title_activity_user_info_upd_portrait"></activity>
+
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

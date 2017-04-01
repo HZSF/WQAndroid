@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#f6f5f5"
+    tools:context="com.weiping.InteProperty.trademark.activity.TradeMarkNamingActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView_trademark_naming_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="@string/txt_hint_trademark_naming_area"
+        android:background="@drawable/edittextwithoutborder"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f6f5f5"/>
+    <EditText
+        android:id="@+id/et_trademark_naming_search_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_hint_trademark_naming_key"
+        android:background="@drawable/edittextwithoutborder"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f6f5f5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn1"
+        android:text="@string/lbl_btn_trademark_naming"
+        android:onClick="onClickTrademarkNaming"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f6f5f5"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_trademark_naming_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#b1b0b0"/>
+            <TextView
+                android:id="@+id/tv_trademark_naming_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fd0202"/>
+            <TextView
+                android:id="@+id/tv_trademark_naming_statement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#b1b0b0"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

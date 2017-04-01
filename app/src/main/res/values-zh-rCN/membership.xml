@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="membership_main_grid_name">
+        <item>培训预约</item>
+        <item>金融预约</item>
+        <item>检测预约</item>
+        <item>体检预约</item>
+        <item>V互动</item>
+        <item>企业项目</item>
+        <item>法律援助</item>
+        <item>会员建议</item>
+        <item>账号中心</item>
+    </string-array>
+
+    <string name="portrait">更换头像</string>
+    <string name="area">区域</string>
+    <string name="contact_name">联系人</string>
+    <string name="email">邮箱</string>
+    <string name="company_name">公司名</string>
+    <string name="company_address">公司地址</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="trademark_naming_notice">
+        <![CDATA[
+         <p>
+         1. 请在“输入商品名称”栏中填写您主营产品名称或服务内容，我们通过对应《类似商品和服务区分表——基于尼斯分类》为您找到最合适的商标类别；
+         </p>
+         <p>
+         2. 请在“输入关键字”栏中填写您喜欢或需要的关键字／词，点击商标取名我们将搜索出您关键词／字相关的可注册商标名称，供您选择注册；
+         </p>
+         ]]>
+    </string>
+    <string name="statement">声明：</string>
+    <string name="trademark_naming_statement">
+        上述搜索结果仅作为您商标注册取名的参考，备选的名称仍需商标代理人进行检索后注册，因使用未经检索的搜索名称直接注册造成的不良结果，微喂不承担任何责任。
+    </string>
+</resources>

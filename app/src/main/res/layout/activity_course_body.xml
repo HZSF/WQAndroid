@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    tools:context="com.weiping.servicecentre.training.course.activity.CourseBodyActivity">
+
+    <ImageView
+        android:id="@+id/image_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true" />
+    <TextView
+        android:id="@+id/txt_course_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_course"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#000000"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#d1d1d1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/txt_course_title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_course_title"
+        android:layout_above="@+id/rl_course_appoint_ppl"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp">
+        <TextView
+            android:id="@+id/txt_course_context"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#515151"/>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@id/rl_course_appoint_ppl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_appoint"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="21dp"
+        android:paddingBottom="10dp">
+        <TextView
+            android:id="@+id/txt_course_appoint_ppl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#fafafa"
+            android:layout_alignTop="@+id/et_course_appoint_ppl"
+            android:layout_alignBottom="@id/et_course_appoint_ppl"
+            android:textColor="#000000"
+            android:text="@string/txt_number_of_ppl"/>
+        <EditText
+            android:id="@id/et_course_appoint_ppl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_toRightOf="@id/txt_course_appoint_ppl"
+            android:background="@drawable/et1"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@id/btn_appoint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn1"
+        android:layout_alignParentBottom="true"
+        android:text="@string/appointment_now"
+        android:onClick="onClickListenerCourseAppoint"/>
+
+</RelativeLayout>

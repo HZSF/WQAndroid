@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cs_course_grid_name">
+        <item>生产管理</item>
+        <item>质量管理</item>
+        <item>安全管理</item>
+        <item>行政管理</item>
+        <item>营销管理</item>
+        <item>职业技能与心态</item>
+        <item>精益现场管理</item>
+        <item>知识产权</item>
+        <item>政策分析</item>
+        <item>财务管理</item>
+        <item>法律服务</item>
+        <item>健康保健</item>
+    </string-array>
+</resources>

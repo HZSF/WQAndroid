@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/WWActionBar</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+    </style>
+    -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/WWActionBar</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+    </style>
+
+    <style name="WWActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#0a7dca</item><!--red #e00a00-->
+    </style>
+
+</resources>

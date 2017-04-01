@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:background="#f5f4f4"
+    tools:context="com.weiping.InteProperty.patent.activity.PatentAnnualFeeMonitorListActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_patent_annual_fee"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#f5f5f5"
+        android:dividerHeight="4px">
+    </android.support.v7.widget.RecyclerView>
+
+    <!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#0a7dca">
+        <CheckBox
+            android:id="@+id/check_patent_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/check_patent_all"
+            android:layout_alignBottom="@id/check_patent_all"
+            android:layout_toRightOf="@id/check_patent_all"
+            android:gravity="center_vertical"
+            android:text="全部"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_alignTop="@id/check_patent_all"
+            android:layout_alignBottom="@id/check_patent_all"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="申请代缴"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+-->
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textView_trademark_status_result_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/textView_trademark_status_result_applicant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textView_trademark_status_result_name"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/textView_trademark_status_result_regNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textView_trademark_status_result_applicant"
+        android:textSize="10sp"/>
+    <TextView
+        android:id="@+id/textView_trademark_status_result_categoryNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textView_trademark_status_result_applicant"
+        android:textSize="10sp"/>
+</RelativeLayout>

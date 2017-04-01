@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="training_notices">
+        <![CDATA[
+         <p>
+         a. 本目录内所有课程均免费培训；
+         </p>
+         <p>
+         b. 开课学员不少于30人；
+         </p>
+         <p>
+         c. 视课程内容，可上门培训；
+         </p>
+         <p>
+         d. 单个企业年度可享受免费内训次数不超过3次，软件自助预约仅限会员。
+         </p>
+         ]]>
+    </string>
+    <string name="training_notice_a">本目录内所有课程均免费培训；</string>
+    <string name="training_notice_b">开课学员不少于30人；</string>
+    <string name="training_notice_c">视课程内容，可上门培训；</string>
+    <string name="training_notice_d">单个企业年度可享受免费内训次数不超过3次，软件自助预约仅限会员。</string>
+</resources>
